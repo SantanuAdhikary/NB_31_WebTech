@@ -1,0 +1,37 @@
+
+
+nav{
+    background-color: antiquewhite;
+}
+
+
+.outer{
+
+    background-color: red;
+    height: 300px;
+    width: 500px;
+}
+
+.outer > .inner{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+}
+
+
+.outer > h2{
+    color:white;
+}
+
+/*  direct child selector */
+
+nav > #logo{
+    color: red;
+}
+
+/*  descendent selector */
+
+.outer h1{
+
+    color:green;
+}

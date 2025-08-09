@@ -1,0 +1,33 @@
+
+
+/*  Tagname Selector */
+
+nav{
+    background-color: yellow;
+}
+
+
+/*  ID selector */
+
+#logo{
+    color:red;
+}
+
+/*  Class Name selector */
+
+.para{
+    background-color: red;
+    color:white;
+}
+
+/*  universal selector  */
+
+*{
+    font-style: italic;
+}
+
+/*  group selector */
+
+h3 , h4 , #para2{
+    background-color: pink;
+}

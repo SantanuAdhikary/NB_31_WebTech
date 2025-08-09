@@ -1,0 +1,41 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: brown;
+    height: 250px;
+}
+
+header > p{
+    color:white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+main > ol > li{
+
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+}
+
+section > h1{
+
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-shadow: -2px 2px 1px red;
+}
+
+section > p{
+
+    text-align: justify;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    text-indent: 50px;
+}
