@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    height: 80px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: flex-end   ;
+    align-items: center;
+    padding-right: 20px;
+}
+
+nav > ul{
+    display: flex;
+    gap:30px;
+}
+
+nav > ul > li{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    list-style: none;
+}
+
+main{
+    height: 250px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    height: calc(100vh - 330px);
+}
+
+section > .card{
+    height: 280px;
+    width: 380px;
+    /* border: 2px solid; */
+    box-shadow: 0px 4px 6px black;
+    background-color: white;
+    text-align: center;
+
+    border-radius: 20px;
+
+}
+
+.card > img{
+    height: 60%;
+    width: 100%;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card > h2{
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    margin-top: 6px;
+    margin-bottom: 7px;
+}
+
+.card > p{
+    font-size: 18px;
+    letter-spacing: 1.3px;
+}
+
+main > button{
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    text-transform: capitalize;
+    letter-spacing: 1.2px;
+}
+
+main > h1{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+main > p{
+    font-size: 18px;
+    letter-spacing: 1.2px;
+}

@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 100px;
+    background-color: black;
+    color:white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav > ul{
+    display: flex;
+    gap:30px;
+}
+
+nav > ul > li{
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    list-style: none;
+    cursor: pointer;
+}
+
+nav > ul > li:hover{
+    color:orangered
+}
+
+.right > #login{
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    background-color: brown;
+    color:white;
+    cursor: pointer;
+}
+.right > #signup{
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    background-color: green;
+    color:white;
+    cursor: pointer;
+}
+
+.right > #signup:hover{
+    background-color: greenyellow;
+}
+
+.right > #login:hover{
+    background-color: rgb(187, 42, 42);
+}
+
+nav > h1{
+    color:orangered
+}
+
+nav > h1 > span{
+    color: yellow;
+}
