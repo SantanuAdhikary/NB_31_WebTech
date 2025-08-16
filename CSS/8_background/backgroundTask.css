@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+      background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+#c1{
+    background-image: url("https://wallpapercat.com/w/full/6/9/f/319983-3840x2160-desktop-4k-iron-man-background.jpg");
+  
+}
+
+#c2{
+    background-image: url("https://cf-images.us-east-1.prod.boltdns.net/v1/static/5359769168001/0a823cb0-01a9-4835-a348-c64187783ccb/d37cb96c-805c-4aa2-9f2f-e62d9eb814c7/1280x720/match/image.jpg");
+}
+
+#c3{
+    background-image: url("https://i0.wp.com/voyagecomics.com/wp-content/uploads/2019/06/thor.jpg?fit=1024%2C658&ssl=1");
+}
+
+#c4{
+    background-image: url("https://www.looper.com/img/gallery/every-hulk-movie-ranked-from-worst-to-best/intro-1555712816.jpg");
+}
+
+
+.card > h1{
+    font-size: 65px;
+    color:white;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 4px black;
+}
