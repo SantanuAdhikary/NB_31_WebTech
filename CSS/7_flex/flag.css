@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.orange{
+    height: 33vh;
+    background-color: orange;
+}
+
+.white{
+    background-color: white;
+    height: 34vh;
+    display: flex;
+    justify-content: center;
+}
+
+.green{
+    height: 33vh;
+    background-color: green;
+}
+
+.white > img{
+    height: inherit;
+    animation: spin 4s linear infinite ;
+}
+
+
+
+
+@keyframes spin {
+    
+    from{
+        transform: rotate(0);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
