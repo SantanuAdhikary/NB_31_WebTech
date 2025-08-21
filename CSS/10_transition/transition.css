@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(black,white,blue);
+}
+
+.outer > .inner{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s; */
+
+    transition: all 2s ease-in;
+}
+
+
+.outer > .inner:hover{
+    background-color: yellow;
+    border-radius: 50%;
+}
