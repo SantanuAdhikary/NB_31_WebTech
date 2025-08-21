@@ -1,0 +1,56 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(to right, red , yellow, black);
+}
+
+
+.outer > .inner{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 20px ;
+
+
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+
+    
+
+    /* overflow-y: scroll; */
+
+
+}
+
+.inner > h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    margin-bottom: 8px;
+}
+
+.inner > p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+/* ! to remove the scrollbar */
+
+::-webkit-scrollbar{
+    display: none;
+}
