@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chessboard in css</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .outer{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .outer > .inner{
+            height: 400px;
+            width: 400px;
+            border: 2px solid black;
+            overflow: hidden;
+
+            transition: all 1s ease-in;
+        }
+
+        .w{
+            height: 50px;
+            width: 50px;
+        }
+
+        .b{
+            height: 50px;
+            width: 50px;
+            background-color: black;
+        }
+
+        .row1{
+            display: flex;
+        }
+        .row2{
+            display: flex;
+        }
+
+        .inner:hover{
+            transform: scale(1.2);  
+            /* transform: rotate(90deg); */
+            /* transform: skew(45deg); */
+                 /* transform: translate(-200px,200px); */
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="outer">
+         <div class="inner">
+
+            <div class="row1">
+                 <div class="w"></div>
+                 <div class="b"></div>
+                 <div class="w"></div>
+                 <div class="b"></div>
+                 <div class="w"></div>
+                 <div class="b"></div>
+                 <div class="w"></div>
+                 <div class="b"></div>
+            </div>
+
+            <div class="row2">
+                <div class="b"></div>
+                <div class="w"></div>
+                <div class="b"></div>
+                <div class="w"></div>
+                <div class="b"></div>
+                <div class="w"></div>
+                <div class="b"></div>
+                <div class="w"></div>
+            </div>
+            <div class="row1">
+                 <div class="w"></div>
+                 <div class="b"></div>
+                 <div class="w"></div>
+                 <div class="b"></div>
+                 <div class="w"></div>
+                 <div class="b"></div>
+                 <div class="w"></div>
+                 <div class="b"></div>
+            </div>
+
+            <div class="row2">
+                <div class="b"></div>
+                <div class="w"></div>
+                <div class="b"></div>
+                <div class="w"></div>
+                <div class="b"></div>
+                <div class="w"></div>
+                <div class="b"></div>
+                <div class="w"></div>
+            </div>
+            <div class="row1">
+                 <div class="w"></div>
+                 <div class="b"></div>
+                 <div class="w"></div>
+                 <div class="b"></div>
+                 <div class="w"></div>
+                 <div class="b"></div>
+                 <div class="w"></div>
+                 <div class="b"></div>
+            </div>
+
+            <div class="row2">
+                <div class="b"></div>
+                <div class="w"></div>
+                <div class="b"></div>
+                <div class="w"></div>
+                <div class="b"></div>
+                <div class="w"></div>
+                <div class="b"></div>
+                <div class="w"></div>
+            </div>
+            <div class="row1">
+                 <div class="w"></div>
+                 <div class="b"></div>
+                 <div class="w"></div>
+                 <div class="b"></div>
+                 <div class="w"></div>
+                 <div class="b"></div>
+                 <div class="w"></div>
+                 <div class="b"></div>
+            </div>
+
+            <div class="row2">
+                <div class="b"></div>
+                <div class="w"></div>
+                <div class="b"></div>
+                <div class="w"></div>
+                <div class="b"></div>
+                <div class="w"></div>
+                <div class="b"></div>
+                <div class="w"></div>
+            </div>
+
+         </div>
+    </div>
+</body>
+</html>
