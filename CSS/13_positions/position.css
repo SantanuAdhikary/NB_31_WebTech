@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer > .middle{
+    height: 85%;
+    width: 90%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* position: relative; */
+}
+
+.outer > .middle > .inner{
+    height: 85%;
+    width: 90%;
+    border: 2px solid gray;
+    background-color: white;
+
+    position: relative;
+
+    /* top:30px; */
+}
+
+
+.inner > #box1{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+
+    position: absolute;
+    /* position: relative; */
+
+    /* right:10px; */
+
+    right:0px;
+}
+.inner > #box2{
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+
+    position: absolute;
+
+    right: 0px;
+    bottom: 0px;
+
+   
+}
+.inner > #box3{
+    height: 70px;
+    width: 70px;
+    background-color: green;
+
+    position: absolute;
+
+    bottom:0px;
+}
+.inner > #box4{
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+
+    position:absolute;
+    top:0px;
+}
+.inner > #box5{
+    height: 90px;
+    width: 90px;
+    background-color: pink;
+
+    position: absolute;
+
+    left:50%;
+    top:50%;
+
+    transform: translate(-50%,-50%);
+}
+
+

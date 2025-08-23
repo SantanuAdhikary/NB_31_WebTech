@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 80px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav > ul{
+    display: flex;
+    gap:20px;
+}
+
+nav > ul > li{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+
+section{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+section > .card{
+    height: 250px;
+    width: 350px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 6px black;
+    background-color: white;
+}
+
+.card > img{
+    height: 100px;
+}
+
+main{
+    height: 250px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: antiquewhite;
+}
+
+.map{
+    height: 250px;
+}
+
+iframe{
+    height: 100%;
+    width: 100%;
+}
+
+.contact{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    background-color: cadetblue;
+}
+
+.contact > .inner{
+    height: 70%;
+    width: 80%;
+    background-color: white;
+    padding: 20px 40px;
+
+    position: relative;
+}
+
+.inner > form > input{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+form > button{
+    padding: 10px 30px;
+    background-color: gray;
+    color:white;
+    border: none;
+    position: absolute;
+    left: 50%;
+    margin-top: 5px;
+}
+
+footer{
+    height: 80px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+footer > p{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
