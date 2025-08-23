@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+
+    display: grid;
+
+    grid-template-columns: 200px 250px 200px;
+
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    /* grid-template-columns: repeat(3, 1fr) */
+
+    /* grid-template-rows: 50px 100px 150px 200px; */
+
+    grid-auto-rows: 100px;
+    justify-content: center;
+    align-content: center;
+    gap:10px;
+}
+
+.box{
+    border: 2px solid;
+    padding: 10px;
+}
+
+
+.outer > #box1{
+
+    grid-column: span 3;
+}
+
+.outer > #box2{
+
+    grid-row: span 2;
+    background-image: url("https://images.pexels.com/photos/1955134/pexels-photo-1955134.jpeg");
+    background-size: cover;
+    background-position: top;
+
+    transition: all 1.3s ease-in;
+}
+
+#box2:hover{
+    background-position: center;
+}
+
+.outer > #box3{
+
+    grid-column: span 2;
+}
+
+.outer > #box8{
+    grid-row: span 2;
+}
