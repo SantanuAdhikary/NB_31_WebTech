@@ -11,6 +11,10 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
+
+    position: fixed;
+    top:0px;
 }
 
 nav > ul{
@@ -32,6 +36,8 @@ section{
     justify-content: space-around;
     align-items: center;
     background-color: aliceblue;
+
+    margin-top: 80px;
 }
 
 section > .card{
@@ -52,7 +58,7 @@ section > .card{
 }
 
 main{
-    height: 250px;
+    height: 300px;
     display: flex;
 
     flex-direction: column;
@@ -63,7 +69,7 @@ main{
 }
 
 .map{
-    height: 250px;
+    height: 350px;
 }
 
 iframe{
@@ -108,7 +114,7 @@ form > button{
 }
 
 footer{
-    height: 80px;
+    height: 100px;
     background-color: black;
     color:white;
     display: flex;
@@ -122,4 +128,14 @@ footer > p{
     font-size: 18px;
     font-weight: bold;
     text-transform: capitalize;
+}
+
+
+main > h2{
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    color:orangered;
+
+    position: sticky;
+    top:100px;
 }

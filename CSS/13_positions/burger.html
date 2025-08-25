@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>burger task</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin:0;
+            box-sizing: border-box;
+        }
+
+        .outer{
+            height: 100vh;
+            background-image: linear-gradient(red,yellow);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .inner{
+            height: 500px;
+            width: 700px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0px 4px 6px black;
+
+            position: relative;
+           
+        }
+
+
+        .inner > .img1{
+            height: 400px;
+
+            position: absolute;
+            bottom:10px;
+            left:150px;
+        }
+
+        .inner > .img2{
+
+            position: absolute;
+            bottom: 10px;
+            left:50px;
+        }
+
+        .inner > .img3{
+            position: absolute;
+            height: 200px;
+            bottom: 10px;
+            left:60px;
+            cursor: pointer;
+
+            transition: transform 0.5s ease-in;
+        }
+
+
+        .inner > .img3:hover{
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="outer">
+        <div class="inner">
+            <img src="./images/burger.png" alt="" class="img1">
+            <img src="./images/drinks.png" alt="" class="img2">
+            <img src="./images/discount.png" alt="" class="img3">
+        </div>
+    </div>
+</body>
+</html>
